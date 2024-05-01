@@ -115,7 +115,7 @@ header{
     box-shadow: -13px 13px 9px -5px rgba(0,0,0,0.84);
     object-fit: cover;
     overflow: hidden;
-    height: auto;
+    width: auto;
 }
 
 .position-img img{
@@ -358,7 +358,11 @@ footer{
         grid-template-rows: repeat(6, auto);
     }
 }
-
+/* @media (max-width:480px){
+    div .position-img{
+        height: 150px;
+}
+} */
 
 
 
