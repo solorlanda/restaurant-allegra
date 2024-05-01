@@ -354,7 +354,7 @@ footer{
 @media (max-width:768px){
     .grid-img{
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 1fr);
+        /* grid-template-rows: repeat(6, 1fr); */
     }
 }
 
