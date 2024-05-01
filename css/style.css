@@ -113,7 +113,6 @@ header{
 .position-img{
     border-radius: 20px;
     box-shadow: -13px 13px 9px -5px rgba(0,0,0,0.84);
-    object-fit: cover;
     overflow: hidden;
     width: auto;
 }
