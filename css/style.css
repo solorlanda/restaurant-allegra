@@ -114,12 +114,13 @@ header{
     border-radius: 20px;
     box-shadow: -13px 13px 9px -5px rgba(0,0,0,0.84);
     overflow: hidden;
-    width: auto;
+    object-fit: fill;
 }
 
-.position-img img{
+.grid-img .position-img img{
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 .schedule{
