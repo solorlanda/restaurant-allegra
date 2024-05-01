@@ -105,7 +105,7 @@ header{
 .grid-img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: repeat(2, 1fr);
     gap: 15px;
     padding: 10px;
 }
@@ -334,7 +334,7 @@ footer{
 @media (max-width:991px){
     .grid-img{
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, auto);
+        grid-template-rows: repeat(3, 1fr);
     }
     .style-menu{
         position: absolute;
@@ -354,14 +354,8 @@ footer{
 @media (max-width:768px){
     .grid-img{
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, auto);
+        grid-template-rows: repeat(6, 1fr);
     }
-}
-@media (max-width:480px){
-    div .position-img{
-        height: auto;
-        width: 100%;
-}
 }
 
 
