@@ -358,11 +358,12 @@ footer{
         grid-template-rows: repeat(6, auto);
     }
 }
-/* @media (max-width:480px){
+@media (max-width:480px){
     div .position-img{
-        height: 150px;
+        height: auto;
+        width: 100%;
 }
-} */
+}
 
 
 
