@@ -118,8 +118,8 @@ header{
 }
 
 .position-img img{
-    max-width: 100%;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 
 .schedule{
@@ -354,7 +354,9 @@ footer{
 @media (max-width:768px){
     .grid-img{
         grid-template-columns: 1fr;
-        /* grid-template-rows: repeat(6, 1fr); */
+        grid-template-rows: repeat(6, 1fr);
+        object-fit: none;
+        height: 50%;
     }
 }
 
