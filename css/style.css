@@ -327,7 +327,7 @@ footer{
 
 /* Media queries */
 
-@media (max-width:1024px){
+@media (max-width:991px){
     .grid-img{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
@@ -342,10 +342,6 @@ footer{
         right: 15px;
         border: 2px solid floralwhite;
     }
-    .menu-buttom{
-        margin-right: 10px;
-    }
-}
 
 @media (max-width:768px){
     .grid-img{
@@ -354,6 +350,11 @@ footer{
         object-fit: none;
         height: 50%;
     }
+
+    .menu-buttom{
+        margin-right: 10px;
+    }
+}
 }
 
 
