@@ -203,6 +203,7 @@ header{
 
 .buttom input{
     color: rgb(0, 0, 0);
+    background-color: rgb(220, 206, 165);
     font-family: "Tilt Neon", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -332,7 +333,7 @@ footer{
 
 /* Media queries */
 
-@media (max-width:991px){
+@media (max-width:1024px){
     .grid-img{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
