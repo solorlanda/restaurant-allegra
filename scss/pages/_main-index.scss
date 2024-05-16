@@ -1,0 +1,31 @@
+/* main index */
+.main-index{
+    .grid-img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 15px;
+        padding: 10px;
+        .position-img{
+            @extend %general-style;
+            overflow: hidden;
+            object-fit: fill;
+            img{
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+    .schedule{
+        background-color: nth($list: $colors, $n: 4);
+        h2{
+            color: nth($list: $colors, $n: 1);
+            margin:0;
+        }
+        p{
+            color: nth($list: $colors, $n: 1);
+            margin:0;
+        }
+    }
+}

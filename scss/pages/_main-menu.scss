@@ -1,0 +1,20 @@
+/* main menu */
+.main-menu{
+    .bg-menu{
+        background-image: url(./../assets/img/fondo-madera.jpg);
+        @include flex(column, center, center, center);
+        row-gap: 10px;
+        .menu-restaurant{
+            .menu-card{
+                background-color: rgb(220, 206, 165);
+                @extend %general-style;
+                row-gap: 30px;
+                margin-bottom: 15px;
+                margin-top: 10px;
+                p,h2{
+                    margin:0;
+                }
+            }
+        }
+    }
+}

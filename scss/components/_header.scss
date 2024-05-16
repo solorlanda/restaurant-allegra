@@ -1,0 +1,52 @@
+/* header */
+header {
+    position: sticky;
+    top: 0px;
+    background-color: nth($list: $colors, $n: 4);
+    z-index: 4;
+    .navbar {
+        .container-fluid {
+            .navbar-brand{
+                img{
+                    width: 150px;
+                    height: 80px;
+                    @extend %general-style;
+                }
+            }
+            .menu-buttom {
+                border: none;
+
+                &:focus {
+                    color: nth($list: $colors, $n: 5);
+                }
+
+                .menu-burger {
+                    background-image: url(./../assets/img/menu-burger.svg);
+                }
+            }
+
+            .style-menu {
+                flex-grow: 0;
+
+                .style-menu-ul {
+                    text-align: end;
+
+                    li {
+                        a {
+                            &.active {
+                                color: nth($list: $colors, $n: 2);
+                            }
+
+                            @include fonts("Bebas Neue", 500, 25px, center, nth($list: $colors, $n: 1));
+                            text-decoration: none;
+
+                            &:hover {
+                                color: nth($list: $colors, $n: 3);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

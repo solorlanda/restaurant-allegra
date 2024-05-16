@@ -1,0 +1,20 @@
+/* main history */
+.main-history{
+    padding-bottom: 20px;
+    .flex-iframe{
+        @include flex(row, center, center, center);
+        padding: 10px;
+        iframe{
+            @extend %general-style;
+        }
+    }
+    #carouselExampleCaptions{
+        width: 70%;
+        height: 50%;
+        @extend %general-style;
+        object-fit: cover;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,32 @@
+/* general */
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+h1{
+    @include fonts("Tilt Neon", 400, 40px, center);
+    @extend %general-style;
+    padding:5px;
+}
+
+p, label{
+    @include fonts("Edu NSW ACT Foundation", 400, 20px, center);
+    padding: 15px;
+}
+
+h2{
+    @include fonts("Bebas Neue", 500, 30px, center);
+    text-decoration: none;
+    padding: 10px;
+}
+
+main {
+    background: linear-gradient(to left, nth($list: $colors, $n: 5)60%, rgba(179, 94, 41, 0.706));
+    min-height: 100vh;
+}
+
+/* style form (for main contact and main book-board)*/
+

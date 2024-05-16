@@ -1,0 +1,35 @@
+/* footer */
+footer{
+    background-color:nth($list: $colors, $n: 4);
+    top:0px;
+    z-index: 1;
+    .flex-footer{
+        @include flex(row, space-around, center, center);
+        div{
+            padding-top: 20px;
+            .email{
+                @include fonts("Bebas Neue", 500, 16px, center, nth($list: $colors, $n: 1));
+            }
+            .phone{
+                @include fonts("Bebas Neue", 500, 16px, center, nth($list: $colors, $n: 1));
+            }
+        }
+        .instagram{
+            a{
+                img{
+                    width: 40px;
+                    height: 40px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .maps{
+            a{
+                img{
+                    width: 65px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

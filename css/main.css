@@ -1,0 +1,346 @@
+.main-contact .flex-form form .buttom input:focus, .main-contact .flex-form form div input:focus, .main-contact .flex-form form div textarea:focus, .main-book-board .flex-form form .buttom input:focus, .main-book-board .flex-form form div input:focus, .main-book-board .flex-form form div textarea:focus, .main-book-board .flex-form form div select:focus, .main-menu .bg-menu .menu-restaurant .menu-card, .main-index .grid-img .position-img, .main-history #carouselExampleCaptions, .main-history .flex-iframe iframe, header .navbar .container-fluid .navbar-brand img, h1 {
+  border-radius: 20px 0 20px 0;
+  box-shadow: -13px 13px 9px -5px rgba(0, 0, 0, 0.84);
+}
+
+/* general */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Tilt Neon";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+  padding: 5px;
+}
+
+p, label {
+  font-family: "Edu NSW ACT Foundation";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+}
+
+h2 {
+  font-family: "Bebas Neue";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+main {
+  background: linear-gradient(to left, rgb(220, 206, 165) 60%, rgba(179, 94, 41, 0.706));
+  min-height: 100vh;
+}
+
+/* style form (for main contact and main book-board)*/
+/* header */
+header {
+  position: sticky;
+  top: 0px;
+  background-color: rgb(100, 0, 0);
+  z-index: 4;
+}
+header .navbar .container-fluid .navbar-brand img {
+  width: 150px;
+  height: 80px;
+}
+header .navbar .container-fluid .menu-buttom {
+  border: none;
+}
+header .navbar .container-fluid .menu-buttom:focus {
+  color: rgb(220, 206, 165);
+}
+header .navbar .container-fluid .menu-buttom .menu-burger {
+  background-image: url(./../assets/img/menu-burger.svg);
+}
+header .navbar .container-fluid .style-menu {
+  flex-grow: 0;
+}
+header .navbar .container-fluid .style-menu .style-menu-ul {
+  text-align: end;
+}
+header .navbar .container-fluid .style-menu .style-menu-ul li a {
+  font-family: "Bebas Neue";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+header .navbar .container-fluid .style-menu .style-menu-ul li a.active {
+  color: rgb(238, 204, 65);
+}
+header .navbar .container-fluid .style-menu .style-menu-ul li a:hover {
+  color: black;
+}
+
+/* footer */
+footer {
+  background-color: rgb(100, 0, 0);
+  top: 0px;
+  z-index: 1;
+}
+footer .flex-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+footer .flex-footer div {
+  padding-top: 20px;
+}
+footer .flex-footer div .email {
+  font-family: "Bebas Neue";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+footer .flex-footer div .phone {
+  font-family: "Bebas Neue";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+footer .flex-footer .instagram a img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+footer .flex-footer .maps a img {
+  width: 65px;
+  margin-bottom: 10px;
+}
+
+/* main history */
+.main-history {
+  padding-bottom: 20px;
+}
+.main-history .flex-iframe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.main-history #carouselExampleCaptions {
+  width: 70%;
+  height: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* main index */
+.main-index .grid-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+  padding: 10px;
+}
+.main-index .grid-img .position-img {
+  overflow: hidden;
+  object-fit: fill;
+}
+.main-index .grid-img .position-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.main-index .schedule {
+  background-color: rgb(100, 0, 0);
+}
+.main-index .schedule h2 {
+  color: #ffffff;
+  margin: 0;
+}
+.main-index .schedule p {
+  color: #ffffff;
+  margin: 0;
+}
+
+/* main faq */
+.main-faq .accordion .accordion-item {
+  background-color: rgb(220, 206, 165);
+  border-color: rgb(100, 0, 0);
+}
+.main-faq .accordion .accordion-item .accordion-header .accordion-button {
+  background-color: rgb(220, 206, 165);
+  box-shadow: none;
+}
+.main-faq .accordion .accordion-item .accordion-button:not(.collapsed) {
+  color: rgb(100, 0, 0);
+  background-color: rgb(220, 206, 165);
+  box-shadow: 0px 0px 13px -1px rgb(100, 0, 0);
+}
+.main-faq .accordion-collapse .accordion-body {
+  font-family: "Edu NSW ACT Foundation";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+}
+
+/* main menu */
+.main-menu .bg-menu {
+  background-image: url(./../assets/img/fondo-madera.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  row-gap: 10px;
+}
+.main-menu .bg-menu .menu-restaurant .menu-card {
+  background-color: rgb(220, 206, 165);
+  row-gap: 30px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.main-menu .bg-menu .menu-restaurant .menu-card p, .main-menu .bg-menu .menu-restaurant .menu-card h2 {
+  margin: 0;
+}
+
+/* main book-board */
+.main-book-board .flex-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-book-board .flex-form form div select:focus {
+  border-color: rgb(100, 0, 0);
+  background-color: rgb(238, 204, 65);
+  outline: rgb(100, 0, 0);
+}
+.main-book-board .flex-form form div select:hover {
+  border-color: rgb(100, 0, 0);
+  outline: rgb(100, 0, 0);
+}
+.main-book-board .flex-form form div textarea:focus {
+  border-color: rgb(100, 0, 0);
+  background-color: rgb(238, 204, 65);
+  outline: rgb(100, 0, 0);
+}
+.main-book-board .flex-form form div textarea:hover {
+  border-color: rgb(100, 0, 0);
+  outline: rgb(100, 0, 0);
+}
+.main-book-board .flex-form form div input:focus {
+  border-color: rgb(100, 0, 0);
+  background-color: rgb(238, 204, 65);
+  outline: rgb(100, 0, 0);
+}
+.main-book-board .flex-form form div input:hover {
+  border-color: rgb(100, 0, 0);
+  outline: rgb(100, 0, 0);
+}
+.main-book-board .flex-form form .buttom input {
+  font-family: "Tilt Neon";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(220, 206, 165);
+  padding: 7px;
+  margin: 9px;
+}
+.main-book-board .flex-form form .buttom input:focus {
+  border-color: rgb(100, 0, 0);
+  background-color: rgb(238, 204, 65);
+  outline: rgb(100, 0, 0);
+}
+
+/* main contact */
+.main-contact .flex-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-contact .flex-form form div textarea:focus {
+  border-color: rgb(100, 0, 0);
+  background-color: rgb(238, 204, 65);
+  outline: rgb(100, 0, 0);
+}
+.main-contact .flex-form form div textarea:hover {
+  border-color: rgb(100, 0, 0);
+  outline: rgb(100, 0, 0);
+}
+.main-contact .flex-form form div input:focus {
+  border-color: rgb(100, 0, 0);
+  background-color: rgb(238, 204, 65);
+  outline: rgb(100, 0, 0);
+}
+.main-contact .flex-form form div input:hover {
+  border-color: rgb(100, 0, 0);
+  outline: rgb(100, 0, 0);
+}
+.main-contact .flex-form form .buttom input {
+  font-family: "Tilt Neon";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(220, 206, 165);
+  padding: 7px;
+  margin: 9px;
+}
+.main-contact .flex-form form .buttom input:focus {
+  border-color: rgb(100, 0, 0);
+  background-color: rgb(238, 204, 65);
+  outline: rgb(100, 0, 0);
+}
+
+/* Media queries */
+@media (max-width: 991px) {
+  .grid-img {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .style-menu {
+    position: absolute;
+    width: 100%;
+    top: 85px;
+    background-color: rgb(100, 0, 0);
+    width: 150px;
+    position: fixed;
+    right: 15px;
+    border: 2px solid #ffffff;
+  }
+}
+@media (max-width: 991px) and (max-width: 768px) {
+  .grid-img {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    object-fit: none;
+    height: 50%;
+  }
+  .menu-buttom {
+    margin-right: 10px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

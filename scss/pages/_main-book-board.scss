@@ -1,0 +1,59 @@
+/* main book-board */
+.main-book-board{
+    .flex-form{
+        @include flex(column, center, center, center);
+        form{
+            div{
+                select{
+                    &:focus{
+                        border-color: nth($list: $colors, $n: 4);
+                        background-color: nth($list: $colors, $n: 2);
+                        outline: nth($list: $colors, $n: 4);
+                        @extend %general-style;
+                    }
+                    &:hover{
+                        border-color: nth($list: $colors, $n: 4);
+                        outline: nth($list: $colors, $n: 4);
+                    }
+                }
+                textarea{
+                    &:focus{
+                        border-color: nth($list: $colors, $n: 4);
+                        background-color: nth($list: $colors, $n: 2);
+                        outline: nth($list: $colors, $n: 4);
+                        @extend %general-style;
+                    }
+                    &:hover{
+                        border-color: nth($list: $colors, $n: 4);
+                        outline: nth($list: $colors, $n: 4);
+                    }
+                }
+                input{
+                    &:focus{
+                        border-color: nth($list: $colors, $n: 4);
+                        background-color: nth($list: $colors, $n: 2);
+                        outline: nth($list: $colors, $n: 4);
+                        @extend %general-style;}
+                    &:hover{
+                        border-color: nth($list: $colors, $n: 4);
+                        outline: nth($list: $colors, $n: 4);
+                    }
+                }
+            }
+            .buttom{
+                input{
+                    @include fonts("Tilt Neon", 400, 20px, center);
+                    background-color: nth($list: $colors, $n: 5);
+                    padding:7px;
+                    margin: 9px;
+                    &:focus{
+                        border-color: nth($list: $colors, $n: 4);
+                        background-color: nth($list: $colors, $n: 2);
+                        outline: nth($list: $colors, $n: 4);
+                        @extend %general-style;
+                    }
+                }
+            }
+        }
+    }
+}

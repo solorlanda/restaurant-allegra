@@ -1,4 +1,4 @@
-/* general */
+/* general
 
 *{
     margin:0px;
@@ -46,32 +46,32 @@ h2{
 main {
     background-color: rgb(220, 206, 165);
     min-height: 100vh;
-}
+} */
 
 /* header */
 
-header img{
+/* header img{
     width: 150px;
     height: 80px;
     box-shadow: -13px 13px 9px -5px rgba(0,0,0,0.84);
-}
+} */
 
-header{
+/* header{
     position:sticky;
     top:0px;
     background-color: rgb(100, 0, 0);
     z-index: 4;
-}
+} */
 
-.menu-buttom{
+/* .menu-buttom{
     border: none;
 }
 
 .menu-buttom:focus{
     color: rgb(220, 206, 165);
-}
+} */
 
-.navbar-nav .nav-link.active{
+/* .navbar-nav .nav-link.active{
     color: rgb(238, 204, 65);
 } 
 
@@ -86,9 +86,9 @@ header{
 
 .style-menu ul li a :hover{
     color:black;
-}
+} */
 
-.style-menu {
+/* .style-menu {
     flex-grow: 0;
 }
 
@@ -98,48 +98,48 @@ header{
 
 .style-menu-ul{
     text-align: end;
-}
+} */
 
 /* main index */
 
-.grid-img{
+/* .grid-img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 15px;
     padding: 10px;
-}
+} */
 
-.position-img{
+/* .position-img{
     border-radius: 20px;
     box-shadow: -13px 13px 9px -5px rgba(0,0,0,0.84);
     overflow: hidden;
     object-fit: fill;
-}
+} */
 
-.grid-img .position-img img{
+/* .grid-img .position-img img{
     width: 100%;
     height: auto;
     object-fit: cover;
-}
+} */
 
-.schedule{
+/* .schedule{
     background-color: rgb(100, 0, 0);
 }
 
 .schedule h2{
     color: antiquewhite;
     margin:0;
-}
+} */
 
-.schedule p{
+/* .schedule p{
     color: antiquewhite;
     margin:0;
-}
+} */
 
 /* main history */
 
-.flex-iframe{
+/* .flex-iframe{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,11 +165,11 @@ header{
 
 .h5-carousel{
     color: rgb(163, 23, 23);
-}
+} */
 
 /* main menu */
 
-.bg-menu{
+/* .bg-menu{
     background-image: url(./../assets/img/fondo-madera.jpg);
     display: flex;
     flex-direction: column;
@@ -190,11 +190,11 @@ header{
 
 .menu-card p,h2{
     margin:0;
-}
+} */
 
 /* style form (for main contact and main book-board)*/
 
-.flex-form {
+/* .flex-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -209,30 +209,30 @@ div .buttom input{
     font-size: 20px;
     padding:7px;
     margin: 9px;
-}
+} */
 
-.flex-form form div input:focus{
+/* .flex-form form div input:focus{
     border-color: rgb(163, 23, 23);
     background-color: rgb(238, 204, 65);
     outline: rgb(163, 23, 23);
     box-shadow: -13px 13px 9px -5px rgba(0,0,0,0.84);
-}
+} */
 
-.flex-form form div select:focus{
+/* .flex-form form div select:focus{
     border-color: rgb(163, 23, 23);
     background-color: rgb(238, 204, 65);
     outline: rgb(163, 23, 23);
     box-shadow: -13px 13px 9px -5px rgba(0,0,0,0.84);
-}
+} */
 
-.flex-form form div textarea:focus{
+/* .flex-form form div textarea:focus{
     border-color: rgb(163, 23, 23);
     background-color: rgb(238, 204, 65);
     outline: rgb(163, 23, 23);
     box-shadow: -13px 13px 9px -5px rgba(0,0,0,0.84);
-}
+} */
 
-.flex-form form div input:hover{
+/* .flex-form form div input:hover{
     border-color: rgb(163, 23, 23);
     outline: rgb(163, 23, 23);
 }
@@ -245,11 +245,11 @@ div .buttom input{
 .flex-form form div textarea:hover{
     border-color: rgb(163, 23, 23);
     outline: rgb(163, 23, 23);
-}
+} */
 
 /* main faqs */
 
-.accordion-item{
+/* .accordion-item{
     background-color: rgb(220, 206, 165);
 }
 
@@ -281,53 +281,53 @@ div .buttom input{
 
 div .accordion-item{
     border-color: rgb(100, 0, 0);
-}
+} */
 
 /* footer */
 
-.flex-footer{
+/* .flex-footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-}
+} */
 
-footer{
+/* footer{
     background-color: rgb(100, 0, 0);
     top:0px;
     z-index: 1;
-}
+} */
 
-.email{
+/* .email{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 500;
     color: rgb(255, 255, 255);
-}
+} */
 
-.flex-footer div{
+/* .flex-footer div{
     padding-top: 20px;
-}
-
+} */
+/* 
 .instagram img{
     width: 40px;
     height: 40px;
     margin-bottom: 10px;
-}
+} */
 
-.maps img{
+/* .maps img{
     width: 65px;
     margin-bottom: 10px;
-}
+} */
 
-.phone{
+/* .phone{
     font-size: 16px;
     color: aliceblue;
 
-}
+} */
 
 /* Media queries */
 
-@media (max-width:991px){
+/* @media (max-width:991px){
     .grid-img{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
@@ -355,7 +355,7 @@ footer{
         margin-right: 10px;
     }
 }
-}
+} */
 
 
 

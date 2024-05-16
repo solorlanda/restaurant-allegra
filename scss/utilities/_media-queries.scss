@@ -1,0 +1,30 @@
+/* Media queries */
+@media (max-width:991px){
+    .grid-img{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .style-menu{
+        position: absolute;
+        width: 100%;
+        top:85px;
+        background-color: nth($list: $colors, $n: 4);
+        width: 150px;
+        position: fixed;
+        right: 15px;
+        border: 2px solid nth($list: $colors, $n: 1);
+    }
+
+@media (max-width:768px){
+    .grid-img{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        object-fit: none;
+        height: 50%;
+    }
+
+    .menu-buttom{
+        margin-right: 10px;
+    }
+}
+}

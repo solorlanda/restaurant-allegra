@@ -1,0 +1,24 @@
+// mixin fonts
+@mixin fonts($font-family, $font-weith, $font-size: null, $text-align: null, $color: null){
+    font-family: $font-family;
+    font-weight: $font-weith;
+    font-style: normal;
+    @if $font-size != null{
+        font-size: $font-size;
+    }
+    @if $text-align != null{
+        text-align: $text-align;
+    }
+    @if $color != null{
+        color: $color;
+    }
+}
+
+@mixin flex($flex-direction, $justify-content, $align-items, $text-align){
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    text-align: $text-align;
+}
+
