@@ -143,7 +143,8 @@ footer .flex-footer .maps a img {
 .main-history #carouselExampleCaptions {
   width: 70%;
   height: 50%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
@@ -159,12 +160,14 @@ footer .flex-footer .maps a img {
 }
 .main-index .grid-img .position-img {
   overflow: hidden;
-  object-fit: fill;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 .main-index .grid-img .position-img img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .main-index .schedule {
   background-color: rgb(100, 0, 0);
@@ -320,7 +323,7 @@ footer .flex-footer .maps a img {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }
-  header .navbar .container-fluid .style-menu {
+  .style-menu {
     position: absolute;
     width: 100%;
     top: 85px;
@@ -332,17 +335,16 @@ footer .flex-footer .maps a img {
   }
 }
 @media (max-width: 768px) {
-  .main-index .grid-img {
+  .grid-img {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
   }
   .position-img img {
-    object-fit: none;
+    -o-object-fit: none;
+       object-fit: none;
     height: 50%;
   }
   .menu-buttom {
     margin-right: 10px;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
