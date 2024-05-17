@@ -1,5 +1,5 @@
 .main-contact .flex-form form .buttom input:focus, .main-contact .flex-form form div input:focus, .main-contact .flex-form form div textarea:focus, .main-book-board .flex-form form .buttom input:focus, .main-book-board .flex-form form div input:focus, .main-book-board .flex-form form div textarea:focus, .main-book-board .flex-form form div select:focus, .main-menu .bg-menu .menu-restaurant .menu-card, .main-index .grid-img .position-img, .main-history #carouselExampleCaptions, .main-history .flex-iframe iframe, header .navbar .container-fluid .navbar-brand img, h1 {
-  border-radius: 20px 0 20px 0;
+  border-radius: 0px 20px 0px 20px;
   box-shadow: -13px 13px 9px -5px rgba(0, 0, 0, 0.84);
 }
 
