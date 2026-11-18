@@ -1,13 +1,11 @@
-![allegra-baner](https://github.com/solorlanda/restaurant-allegra/assets/168296799/d6498d64-388e-4066-8e9c-1148ca2c1e78)
-# Allegra Restaurant
+# Allegra Italian Kitchen
 
-It is my first project as a developer, it is the responsive website of a restaurant.
+An English-language restaurant website demo by Sol Orlanda.
 
+[Open the live demo](https://solorlanda.github.io/restaurant-allegra/)
 
-## About the project
-- dynamic web with 6 HTML
+- Responsive layout and filterable digital menu with sample prices in DKK.
+- Table request preview with date, time, party size and an editable summary.
+- Sample restaurant details. The form does not send reservations or store guest information.
 
-- intuitive and easy to navigate
-- responsive
-- original styles to CSS
-
+The site uses HTML, CSS and JavaScript. Open `index.html` to run it locally.
